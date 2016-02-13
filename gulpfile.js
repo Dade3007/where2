@@ -1,0 +1,20 @@
+var gulp = require('gulp'),
+  connect = require('gulp-connect'),
+  sass = require('gulp-sass');
+
+
+gulp.task('connect', function() {
+  connect.server();
+});
+
+gulp.task('sass', function () {
+  return gulp.src('./sass/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+});
+
+gulp.task('sass:watch', function () {
+  gulp.watch('./sass/**/*.scss', ['sass']);
+});
+ 
+gulp.task('default', ['sass','sass:watch','connect']);

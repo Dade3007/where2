@@ -1,6 +1,6 @@
 @font-face {
     font-family: Title;
-    src: url(fonts/28days.ttf);
+    src: url(./fonts/Days.ttf);
 }
 
 html, body, div, p{
@@ -119,33 +119,42 @@ paper-header-panel{
 		    	}
 			}
 
-			&#login{
+			&#login{ 
 
-				> p{
-					font-size: 32px;
-				}
-				
-				float: right;
-			    position: relative;
-			    top: 162px;
+				display: inline-block;
+				width: 30%;
+				height: 100%;
 
-			    @media(max-width:1260px){
-					width: 100%;
-					float: none;
-					top: 100px;
-				}
-				
-				
-				paper-button{
-					padding: 10px;
-					height: 45px;
-					width: 130px;
-					background: white;
-  					color: black;
+				flip-card{
+					
+					display: inline-block;
+					width: 30%;
+					font-family: "Title";
 
-  					> p{
-  						font-size: 22px;
-  					}
+					> p{
+						font-size: 32px;
+					}
+					
+					
+
+				    @media(max-width:1260px){
+						width: 100%;
+						float: none;
+						top: 100px;
+					}
+					
+					
+					paper-button{
+						padding: 10px;
+						height: 45px;
+						width: 130px;
+						background: white;
+	  					color: black;
+
+	  					> p{
+	  						font-size: 22px;
+	  					}
+					}
 				}
 			}
 		}

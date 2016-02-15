@@ -14,6 +14,7 @@
 	<link rel="import" href="bower_components/iron-icon/iron-icon.html">
 	<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
 	<link rel="import" href="bower_components/iron-icons/maps-icons.html">
+	<link rel="import" href="bower_components/flip-card/flip-card.html">
 
 
 
@@ -40,9 +41,16 @@
 				<p id="secondTitle">ALL OVER THE WORLD</p>
 			</div>
 			<div id="login">
-				<p>JOIN THE COMMUNITY</p>
-				<paper-button><p>Sign Up</p></paper-button>
-				<paper-button><p>Login</p></paper-button>
+				<flip-card>
+					<front>
+						<p>JOIN THE COMMUNITY</p>
+						<paper-button><p>Sign Up</p></paper-button>
+						<paper-button><p>Login</p></paper-button>
+					</front>
+					<back>
+						<p>Do tororo!</p>
+					</back>
+				</flip-card>
 			</div>
 	    </paper-card>
 	</div>

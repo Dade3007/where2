@@ -1,6 +1,6 @@
 @font-face {
   font-family: Title;
-  src: url(fonts/28days.ttf); }
+  src: url(./fonts/Days.ttf); }
 
 html, body, div, p {
   margin: 0px;
@@ -86,21 +86,25 @@ paper-header-panel {
           #mainContent #indexCard div#mainTitle p#secondTitle {
             font-size: 4.85em; }
       #mainContent #indexCard div#login {
-        float: right;
-        position: relative;
-        top: 162px; }
-        #mainContent #indexCard div#login > p {
-          font-size: 32px; }
-        @media (max-width: 1260px) {
-          #mainContent #indexCard div#login {
-            width: 100%;
-            float: none;
-            top: 100px; } }
-        #mainContent #indexCard div#login paper-button {
-          padding: 10px;
-          height: 45px;
-          width: 130px;
-          background: white;
-          color: black; }
-          #mainContent #indexCard div#login paper-button > p {
-            font-size: 22px; }
+        display: inline-block;
+        width: 30%;
+        height: 100%; }
+        #mainContent #indexCard div#login flip-card {
+          display: inline-block;
+          width: 30%;
+          font-family: "Title"; }
+          #mainContent #indexCard div#login flip-card > p {
+            font-size: 32px; }
+          @media (max-width: 1260px) {
+            #mainContent #indexCard div#login flip-card {
+              width: 100%;
+              float: none;
+              top: 100px; } }
+          #mainContent #indexCard div#login flip-card paper-button {
+            padding: 10px;
+            height: 45px;
+            width: 130px;
+            background: white;
+            color: black; }
+            #mainContent #indexCard div#login flip-card paper-button > p {
+              font-size: 22px; }

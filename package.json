@@ -4,25 +4,12 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "bower": "^1.7.7",
-    "del": "^2.2.0",
+    "bower": "^1.7.7",  
     "gulp": "^3.9.1",
     "gulp-connect": "^2.3.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-ruby-sass": "^2.0.6",
-    "gulp-sass": "^2.2.0",
-    "gulp-serve": "^1.2.0",
-    "gulp-uglify": "^1.5.2"
+    "gulp-livereload": "^3.8.1",   
+    "gulp-sass": "^2.2.0"    
   },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^2.3.1",
-    "gulp-sass": "^2.2.0",
-    "gulp-serve": "^1.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "DADE3007@GMAIL.COM",
   "license": "ISC"
 }
